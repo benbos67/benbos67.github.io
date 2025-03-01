@@ -6435,6 +6435,7 @@ axU(a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=A.t(t.N,t.Gc),b=a0.split("."),a=b.
 if(a>2)return""
 s=b[0]
 r=s.length
+if(r>15)return""
 q=B.j.be(r,3)
 if(q!==0)s=B.d.qC(s,r+3-q,"0")
 p=a>1?b[1]:""
@@ -33440,7 +33441,7 @@ m=l==null?m.c:l
 o.a.toString
 l=A.hR("Numbers to text",n,n,n,n,n,n)
 s=A.c([new A.tM(A.iT("^[0-9,]*\\.?[0-9,]*$",!0,!1),!0,"")],t.VS)
-r=A.ahk(n,new A.fP(4,B.eo,B.jY),n,n,n,n,n,n,!0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,"Enter a number",!0,n,n,n,n,n,n,n,n,n,n,n,n,n)
+r=A.ahk(n,new A.fP(4,B.eo,B.jY),n,n,n,n,n,n,!0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,"Enter an amount, eg 123.45",!0,n,n,n,n,n,n,n,n,n,n,n,n,n)
 q=A.ae5(A.hR("convert",n,n,n,A.h0(n,n,n,n,n,n,n,n,n,n,n,18,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),n,n),new A.a7X(o),n)
 p=A.h0(n,n,n,n,n,n,n,n,n,n,n,18,n,n,n,n,n,!0,n,n,n,n,n,n,n,n)
 return new A.w4(new A.rq(l,m,new A.Lc(n,n,1/0,56),n),A.nW(A.n1(A.acN(A.c([new A.x2(r,B.JY,B.fU,!1,B.J9,B.Ja,new A.a7Y(o),s,!0,n),q,A.hR(o.e,n,n,n,p,n,n)],t.V),B.c0,B.qv,B.qw),n,250),n,n),n)}}
