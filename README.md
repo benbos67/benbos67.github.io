@@ -4,11 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Before You Start
 
-Run the backend application. In the `java_backend` directory, you'll find a .jar file. run it with `java -jar number_converter-0.0.1-SNAPSHOT.jar`. The server runs on port 8081.
+Run the backend application. In the `java_backend` directory, you'll find a .jar file. run it with `java -jar number_converter-0.0.1-SNAPSHOT.jar`. You'll need Java versioon 21; the server runs on port 8081.
+The java_backend folder also contains the source code for the Java/Spring back end.
 
 ## Available Scripts
 
-Now, run the front end. You will need node installed, and npm.
+Now, run the front end. You will need node installed, and npm. Get the latest versions.
 
 ### `npm install`
 
